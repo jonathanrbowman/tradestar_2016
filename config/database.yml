@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: tradestar_production
-  username: tradestar
   password: <%= ENV['TRADESTAR_DATABASE_PASSWORD'] %>
